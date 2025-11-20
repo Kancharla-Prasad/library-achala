@@ -21,6 +21,10 @@ const BookSchema = new mongoose.Schema({
     type: String,
     default: '',
   },
+  year : {
+    type: Number,
+    required: [true, 'Please add the publication year'],
+  },
   genre: {
     type: [String],
     required: [true, 'Please select at least one genre'],
