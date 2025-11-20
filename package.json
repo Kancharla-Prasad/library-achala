@@ -26,5 +26,15 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kancharla-Prasad/library-achala.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kancharla-Prasad/library-achala/issues"
+  },
+  "homepage": "https://github.com/Kancharla-Prasad/library-achala#readme"
 }
