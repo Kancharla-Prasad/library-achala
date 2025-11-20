@@ -18,8 +18,8 @@ const router = express.Router();
 
 // Public routes
 router.get('/', getBooks);
-router.get(BOOKS.FEATURED, getFeaturedBooks);
-router.get(BOOKS.BY_ID, getBookById);
+// router.get(BOOKS.FEATURED, getFeaturedBooks);
+// router.get(BOOKS.BY_ID, getBookById);
 
 // Admin only routes
 router.post(
